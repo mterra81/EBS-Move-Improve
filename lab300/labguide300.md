@@ -27,3 +27,18 @@ $ . /u01/install/APPS/EBSapps.env run
 ```
 
 3. To log in through the web interface, you must initially set a password of your choice for the `SYSADMIN` user. After the `SYSADMIN` user is active with the new password, you can create new users or activate existing locked users. To enable the `SYSADMIN` user, run the following commands:
+```
+$ mkdir -p ~/logs
+$ cd ~/logs
+$ sh /u01/install/APPS/scripts/enableSYSADMIN.sh
+```
+When prompted, enter a new password for the `SYSADMIN` user.
+The `SYSADMIN` user can now connect to Oracle E-Business Suite through the web interface and create new users or activate existing locked users.
+
+4. For this Vision demo environment, you can run another script to unlock a set of 36 application users that are typically used when demonstrating Oracle E-Business Suite using the Vision database.
+```
+$ cd ~/logs
+$ sh /u01/install/APPS/scripts/enableDEMOusers.sh
+```
+When prompted, enter a new password (using a special character is highly encouraged).
+Do not run this script on a fresh or production environment.
