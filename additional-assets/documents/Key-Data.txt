@@ -1,0 +1,29 @@
+=========
+Constants
+=========
+
+OCI_API_Fingerprint = eb:21:28:b7:d8:4b:0e:7c:79:4f:6d:6f:52:15:18:76
+EBS_apps_CIDR_subnet = 10.0.10.0/24
+EBS_db_CIDR_subnet = 10.0.11.0/24
+EBS_lbaas_CIDR_subnet1 = 10.0.12.0/24
+EBS_lbaas_CIDR_subnet1 =  10.0.13.0/24
+EBS_dbbackup_subnet = 10.0.14.0/24
+OCI_API_Key_Path = /u01/install/APPS/.oci/oci_api_key.pem
+
+=========
+Variables
+=========
+
+Tenancy_OCID =
+Tenancy_Admin_User =
+Tenancy_Admin_Password =
+Cloud_Manager_Admin_Password = 
+Cloud_Manager_Instance_Public_IP = 
+Cloud_Manager_URL =
+Client_ID = 
+Client_Secret = 
+Client_Tenant = 
+
+======
+Output
+======
