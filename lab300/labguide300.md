@@ -42,3 +42,9 @@ $ sh /u01/install/APPS/scripts/enableDEMOusers.sh
 ```
 When prompted, enter a new password (using a special character is highly encouraged).
 Do not run this script on a fresh or production environment.
+
+## Part 3. Configure Local Hosts File and Log in to Oracle E-Business Suite
+1. In the Oracle Cloud Infrastructure console, find the IP address for the Oracle E-Business Suite web entry point by navigating to Networking > Load Balancers.
+
+2. On the Load Balancers page, you will find a load balancer named ebsholenv1-lbaas. Obtain the public IP address of this load balancer and record this in your Key-Data.txt file.
+![](./imgs/2.png "")
