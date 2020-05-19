@@ -28,7 +28,9 @@ You will be directed to the Oracle Cloud Infrastructure console where you will e
 You will now run a Terraform Script which will create the resources required to deploy the Oracle E-Business Suite Cloud Manager, including:
 
 • A compartment
+
 • Group, policies, and a user
+
 • Network resources – including a VCN, an internet gateway, subnets, route tables, security lists, and security rules
 
 1. In the Oracle Cloud Infrastructure console navigation menu, select Resource Manager and then click Stacks.
