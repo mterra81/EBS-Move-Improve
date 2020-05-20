@@ -51,14 +51,24 @@ Do not run this script on a fresh or production environment.
 
 3. Edit the local hosts file on your laptop and add an entry.<br>
   a. *For Windows Users*<br>
-    i. Navigate to Notepad in your start menu.
-    ii. Hover over Notepad, right-click, and select the option “Run as Administrator.”
-    iii. In Notepad, navigate to File > Open.
-    iv. Browse to C:\\Windows\System32\drivers\etc
-    v. Find the file hosts
+    i. Navigate to Notepad in your start menu. <br>
+    ii. Hover over Notepad, right-click, and select the option “Run as Administrator.” <br>
+    iii. In Notepad, navigate to File > Open. <br>
+    iv. Browse to C:\\Windows\System32\drivers\etc <br>
+    v. Find the file hosts <br>
     ![](./imgs/3.png "")
 
-    vi. In the hosts file, scroll down to the end of the content.
-    vii. Add the following entry to the very end of the file: ```<ip_address> ebsholenv1.example.com```
-    viii. Save the file.
-  b. *For Mac Users*
+    vi. In the hosts file, scroll down to the end of the content. <br>
+    vii. Add the following entry to the very end of the file: ```<ip_address> ebsholenv1.example.com``` <br>
+    viii. Save the file. <br>
+  b. *For Mac Users* <br>
+    i. Open a Terminal Window. <br>
+    ii. Enter the following command: ```sudo vi /etc/hosts``` <br>
+    iii. Go to the last line and add the following entry: ```<ip_address> ebsholenv1.example.com``` <br>
+    iv. Save the file. <br>
+
+4. Log in to Oracle E-Business Suite: <br>
+  a. In your browser, navigate to the following URL: ```https://ebsholenv1.example.com/OA_HTML/AppsLocalLogin.jsp``` <br>
+  b. When prompted, accept the warning concerning the certificate coming from an unauthorized certificate authority as we are using a self-signed certificate. (You will change the certificate with your own when executing this procedure outside of this hands-on lab.) <br>
+  c. On this page, you will log in to Oracle E-Business Suite.
+  ![](./imgs/4.png "")
