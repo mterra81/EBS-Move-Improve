@@ -37,7 +37,7 @@ You will now run a Terraform Script which will create the resources required to 
 
 ![](./images/2.png "")
 
-2. In the COMPARTMENT drop-down list on the left side of your screen, select your root compartment.
+2. In the COMPARTMENT drop-down, list on the left side of your screen, select your root compartment.
 
 ![](./images/3.png "")
 
