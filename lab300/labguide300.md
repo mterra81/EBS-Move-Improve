@@ -49,8 +49,8 @@ Do not run this script on a fresh or production environment.
 2. On the Load Balancers page, you will find a load balancer named ebsholenv1-lbaas. Obtain the public IP address of this load balancer and record this in your Key-Data.txt file.
 ![](./imgs/2.png "")
 
-3. Edit the local hosts file on your laptop and add an entry.
-  a. *For Windows Users*
+3. Edit the local hosts file on your laptop and add an entry.<br>
+  a. *For Windows Users*<br>
     i. Navigate to Notepad in your start menu.
     ii. Hover over Notepad, right-click, and select the option “Run as Administrator.”
     iii. In Notepad, navigate to File > Open.
